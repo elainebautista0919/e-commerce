@@ -20,13 +20,13 @@
   Demo 2: GET routes for Categories, Products and Tags <br>
     https://drive.google.com/file/d/1J-hfOv-_HDQcxaWu8mkcH3aYDwcTSIDJ/view?usp=share_link
 
-  Demo 3: POST, PUT and DELETE routes for Categories <br>
+  Demo 3: GET (single), POST, PUT and DELETE routes for Categories <br>
     https://drive.google.com/file/d/18IyOw7UVbKWGHRcDRyF2l9QiELHFu11R/view?usp=share_link
 
-  Demo 4: POST, PUT and DELETE routes for Tags <br>
+  Demo 4: GET (single), POST, PUT and DELETE routes for Tags <br>
     https://drive.google.com/file/d/1v7cankVbPc9D8KpVXJaU49OY-vJpEoRu/view?usp=share_link
 
-  Demo 5: POST, PUT and DELETE routes for Products <br>
+  Demo 5: GET (single), POST, PUT and DELETE routes for Products <br>
     https://drive.google.com/file/d/12xNqDqpo7fobmyCazn5YtRFfZO1MlvpR/view?usp=share_link
 
   ## Installation
