@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
-const { restore } = require('../../models/Category');
 
 // The `/api/categories` endpoint
 
@@ -67,7 +66,7 @@ router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(re.body, {
     where: {
-      id: req.body.id
+      id: req.params.id
     }
     .then(dbCategoryData => {
       if (!dbCategoryData[0]) {
@@ -85,14 +84,14 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
-  Category.delete({
+  Category.destroy({
     where: {
       id: req.params.id
     }
   })
   .then(dbCategoryData => {
     if (!dbCategoryData) {
-      res.status(404).json({ message: "This id has not category."});
+      res.status(404).json({ message: "This id has no category."});
       return;
     }
     res.json(dbCategoryData);
